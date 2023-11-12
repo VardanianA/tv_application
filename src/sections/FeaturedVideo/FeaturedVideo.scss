@@ -1,0 +1,112 @@
+.featuredVideo {
+  grid-area: n;
+  
+  &__inner {
+    height: 100%;
+  }
+
+  &__featuredImages {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  &__featuredCategory {
+    position: absolute;
+    top: 117px;
+    width: calc(1763px - 160px - 1080px);
+    background-color: transparent;
+    color: #858688;
+    letter-spacing: 4.8px;
+    text-align: left;
+    text-transform: uppercase;
+    opacity: 1;
+    z-index: 10;
+  }
+
+  &__featuredCoverImage {
+    width: calc(100vw - 160px);
+    height: 506px;
+  }
+
+  &__featuredTitleImage {
+    position: absolute;
+    top: 147px;
+    left: 0;
+    width: calc(1763px - 160px - 1080px);
+    background-color: transparent;
+    opacity: 1;
+  }
+
+  &__featuredTypes {
+    position: absolute;
+    top: 237px;
+    width: calc(1763px - 160px - 1080px);
+    z-index: 1000;
+    color: #f1f1f1;
+    opacity: 1;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    font-size: 20px;
+    z-index: 100;
+  }
+
+  &__featuredReleaseYear {
+    background-color: transparent;
+  }
+
+  &__featuredMpaRating {
+    background-color: transparent;
+  }
+
+  &__featuredDate {
+    background-color: transparent;
+  }
+
+  &__featuredDesc {
+    position: absolute;
+    top: 277px;
+    width: calc(1763px - 160px - 1080px);
+    color: #f1f1f1;
+    background-color: transparent;
+    font-size: 22px;
+  }
+
+  &__featuredButtons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    column-gap: 0.5rem;
+    top: 429px;
+  }
+
+  &__featuredButton1 {
+    position: absolute;
+    background-color: #f1f1f1;
+    border-radius: 40px;
+    color: #0c0c0c;
+    left: 0;
+    width: 240px;
+    height: 52px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+  &__featuredButton2 {
+    position: absolute;
+    background-color: #2727f5;
+    color: #f1f1f1;
+    border-radius: 40px;
+    left: 268px;
+    width: 240px;
+    height: 52px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+
+}
